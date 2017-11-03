@@ -6,7 +6,7 @@
 $number = rand(1,6);
 $number2 = rand(1,6);
 echo $number;
-echo "</br>";
+echo ",";
 echo $number2;
 echo "</br>";
 if ($number == 1 xor $number2 == 1) {
@@ -14,9 +14,9 @@ if ($number == 1 xor $number2 == 1) {
 } elseif ($number == 1 and $number2 == 1) {
 	echo "Snake eyes";
 } elseif ($number == 6 xor $number2 == 6) {
-	echo "Winner";
+	echo "Almost Winner";
 } elseif ($number == 6 and $number2 == 6) {
-	echo "Double Winner";
+	echo "Winner";
 } else {
 	echo "Sorry you lose";
 }
