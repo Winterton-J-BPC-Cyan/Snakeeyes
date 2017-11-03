@@ -15,7 +15,7 @@ if ($number == 1 xor $number2 == 1) {
 	echo "Snake eyes";
 } elseif ($number == 6 xor $number2 == 6) {
 	echo "Winner";
-} elseif ($number == 6 xor $number2 == 6) {
+} elseif ($number == 6 and $number2 == 6) {
 	echo "Double Winner";
 } else {
 	echo "Sorry you lose";
