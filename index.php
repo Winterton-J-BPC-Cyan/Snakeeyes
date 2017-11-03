@@ -13,7 +13,7 @@ if ($number == 1 or $number2 == 1) {
 	echo "Almost snake eyes";
 } elseif ($number == 6 or $number2 == 6) {
 	echo "Winner";
-} elseif ($number == 1 and $number2 == 1) {
+} if ($number == 1 and $number2 == 1) {
 	echo "Snake eyes";
 } else {
 	echo "Sorry you lose";
